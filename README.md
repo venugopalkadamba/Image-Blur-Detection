@@ -41,7 +41,7 @@ pip install -r requirements.txt
   </li>
 </ul>
 
-<b>STEP-3:</b> After completion of above two steps, for processing the images and generation of features, execute "<b>image_processing_and_feature_generation.py</b>" file in command prompt<br>
+<b>STEP-3:</b> After completion of above two steps, for processing the images and generation of features, execute "<b>image_processing_and_feature_generation.py</b>" file in command prompt.<br><br>
 **NOTE:** Executing this file will take some time, this code is already executed and the generated csv files are already present in the folder. I recommend to skip execution of this step and proceed with next step.
 
 ```python
