@@ -1,1 +1,4 @@
-# Image-Blur-Detection
+<div align="center">
+
+# Image Blur Detection using Machine Learning
+</div>
