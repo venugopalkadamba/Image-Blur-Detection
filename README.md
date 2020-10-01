@@ -16,7 +16,7 @@ Deciding the threshold, below threshold the image is said to be blurred and abov
 
 ## STEPS FOR EXECUTING THE FILES
 
-<b>STEP-1:</b> Install all the dependencies mentioned in requirements.txt file by running following command in command prompt<br>
+<b>STEP-1:</b> Install all the dependencies mentioned in <b>requirements.txt</b> file by running following command in command prompt<br>
 
 ```python
 pip install -r requirements.txt
@@ -41,23 +41,23 @@ pip install -r requirements.txt
   </li>
 </ul>
 
-<b>STEP-3:</b> After completion of above two steps, for processing the images and generation of features, execute "image_processing_and_feature_generation.py" file in command prompt<br>
+<b>STEP-3:</b> After completion of above two steps, for processing the images and generation of features, execute "<b>image_processing_and_feature_generation.py</b>" file in command prompt<br>
 
 ```python
 python image_processing_and_feature_generation.py
 ```
 After executing the above file, you can notice two csv files in current working directory "train.csv" and "validation.csv".
 
-<b>STEP-4:</b> After executing the above command, execute "train_model.py" in command prompt<br>
+<b>STEP-4:</b> After executing the above command, execute "<b>train_model.py</b>" in command prompt<br>
 
 ```python
 python train_model.py
 ```
 After executing the above file, you can notice two pickle files in current working directory "XGBoost.pkl" and "voting_model.pkl".
 
-<b>STEP-5:</b> After executing the above command, execute "validation.py" in command prompt to get the scores on evaluation dataset<br>
+<b>STEP-5:</b> After executing the above command, execute "<b>validation.py</b>" in command prompt to get the scores on evaluation dataset<br>
 
 ```python
 python validation.py
 ```
-After executing the above file, you can notice a pickle file "Final_Model.pkl" which got the highest validation accuracy.
+After executing the above file, you can notice a pickle file "<b>Final_Model.pkl</b>" which got the highest validation accuracy.
