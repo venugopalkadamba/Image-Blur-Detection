@@ -9,9 +9,12 @@ computer vision.<br>
 In this assignment you have to come up with features and models to build a classifier which will predict whether a given image is blurred.
 
 ## APPROACH
-We can classify whether a image is blurred or not by observing the edges in the image. One of the most commonly used method for detecting edges from the image is Laplacian method. The reason for using laplacian operator is its definition itself, laplacian operator is used to get the second derivatives of the images. The laplacian oprator highlights the regions where their is rapid change of intensity in the image. After applying the laplacian operator to the image we calculate the <b>variance</b> and <b>maximum</b> of the image pixels. The image with high variance and high maximum are expected to have sharp edges i.e.it's a clear image, whereas the image with less variance and less maximum are expected to be a blur image. 
+We can classify whether a image is blurred or not by observing the edges in the image. One of the most commonly used method for detecting edges from the image is Laplacian method. The reason for using laplacian operator is its definition itself, laplacian operator is used to get the second derivatives of the images. The laplacian oprator highlights the regions where their is rapid change of intensity in the image. After applying the laplacian operator to the image we calculate the <b>variance</b> and <b>maximum</b> of the image pixels. The image with high variance and high maximum are expected to have sharp edges i.e.it's a clear image, whereas the image with less variance and less maximum are expected to be a blur image.<br>
+Deciding the threshold, below threshold the image is said to be blurred and above threshold the image is said to be clear, is a major task. We can tackle this problem by using machine learning algorithms. We can make use of variance and maximum as features for our machine learning model to predict whether the given image is a blur image or clear image.
 
-## STEPS FOR EXECUTING CREATING THE MODEL
+**NOTE:** In all the python files <b>Label 1 = 'Blur Image'</b> and <b>Label 0 = 'Clear Image'</b>
+
+## STEPS FOR EXECUTING THE FILES
 
 <b>STEP-1:</b> Install all the dependencies mentioned in requirements.txt file by running following command in command prompt<br>
 
