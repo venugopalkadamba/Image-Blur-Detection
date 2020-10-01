@@ -20,13 +20,23 @@ pip install -r requirements.txt
 ```
 
 <b>STEP-2:</b> After installing all the dependencies, make sure that the dataset contains images in below mentioned paths<br>
-<b>TRAIN IMAGES DIRECTORY</b><br>
-CERTH_ImageBlurDataset/TrainingSet/Undistorted<br>
-CERTH_ImageBlurDataset/TrainingSet/Naturally-Blurred<br>
-CERTH_ImageBlurDataset/TrainingSet/Artificially-Blurred<br>
-<b>EVALUATION IMAGES DIRECTORY</b><br>
-"CERTH_ImageBlurDataset/EvaluationSet/DigitalBlurSet<br>
-"CERTH_ImageBlurDataset/EvaluationSet/NaturalBlurSet<br>
+<ul>
+  <li>CERTH_ImageBlurDataset/TrainingSet/<br>
+    <ul>
+      <li>Undistorted/</li>
+      <li>Naturally-Blurred/</li>
+      <li>Artificially-Blurred/</li>
+    </ul>
+  </li>
+  <li>CERTH_ImageBlurDataset/EvaluationSet/ <br>
+    <ul>
+      <li>DigitalBlurSet/</li>
+      <li>NaturalBlurSet/</li>
+      <li>DigitalBlurSet.xlsx</li>
+      <li>NaturalBlurSet.xlsx</li>
+    </ul
+  </li>
+</ul>
 
 <b>STEP-3:</b> After completion of above two steps, for processing the images and generation of features, execute "image_processing_and_feature_generation.py" file in command prompt<br>
 
