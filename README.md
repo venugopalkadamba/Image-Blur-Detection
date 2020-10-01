@@ -62,3 +62,6 @@ After executing the above file, you can notice two pickle files in current worki
 python validation.py
 ```
 After executing the above file, you can notice a pickle file "<b>Final_Model.pkl</b>" which got the highest validation accuracy.
+
+## RESULT
+After execution of all steps, a model with 88% accuracy on evaluation set was generated. Both thhe XGBoost and Voting Classifier models performed well with same accuracy.
