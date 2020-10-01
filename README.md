@@ -3,12 +3,15 @@
 # Image Blur Detection using Machine Learning
 </div>
 
-## Question
+## QUESTION
 Image quality detection has always been an arduous problem to solve in
 computer vision.<br>
 In this assignment you have to come up with features and models to build a classifier which will predict whether a given image is blurred.
 
-## Steps for processing the images in dataset, generating features and model creation
+## APPROACH
+We can classify whether a iamge is blurred or not by observing the edges in the image. One of the most commonly used method for detecting edges from the image is Laplacian method. The reason for using laplacian operator is its definition itself, laplacian operator is used to get the second derivatives of the images. The laplacian oprator highlights the regions where their is rapid change of intensity in the image. After applying the laplacian operator to the image we calculate the <b>variance</b> and <b>maximum</b> of the image. The image with high variance and high maximum are expected to have sharp edges i.e.it's a clear image, whereas the image with less variance and less maximum is expected to be a blur image. 
+
+## STEPS FOR EXECUTING CREATING THE MODEL
 
 <b>STEP-1:</b> Install all the dependencies mentioned in requirements.txt file by running following command in command prompt<br>
 
